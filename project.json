@@ -1,0 +1,27 @@
+{
+  "project_type": "javascript",
+  "debugMode": 1,
+  "showFPS": true,
+  "frameRate": 40,
+  "id": "gameCanvas",
+  "renderMode": 0,
+  "engineDir": "frameworks/cocos2d-html5",
+  "modules": [
+    "cocos2d",
+    "extensions"
+  ],
+  "jsList": [
+    "src/gui/popup/WindowBase.js",
+    "src/app.js",
+    "src/FirstWindow.js",
+    "src/gui/popup/BlurBgLayer.js",
+    "src/gui/popup/Mask.js",
+    "src/gui/popup/ObjectArray.js",
+    "src/gui/popup/WindowAction.js",
+    "src/gui/popup/WindowBase.js",
+    "src/gui/popup/WindowManager.js",
+    "src/resource.js",
+    "src/SecondWindow.js",
+    "src/ThirdWindow.js"
+  ]
+}
