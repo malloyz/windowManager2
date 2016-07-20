@@ -141,15 +141,8 @@ var WindowManager = cc.Class.extend({
             this._destroyModalWindow(modalWindow);
         }
 
-        var size = this._destroyModalWindowList.size();
-        for (var i = size - 1; i >= 0; i--) {
-            var modalWindow = this._destroyModalWindowList.getObjectByIndex(i);
-            this._destroyModalWindow(modalWindow);
-        }
-
         this._showModalWindowList.removeAllObject();
         this._hideModalWindowList.removeAllObject();
-        this._destroyModalWindowList.removeAllObject();
 
         this._blurBgLayer && this._blurBgLayer.release();
         this._blurBgLayerNull && this._blurBgLayerNull.release();
